@@ -1,0 +1,96 @@
+@media (max-width:769px) {
+    main::after {
+
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgba(0,0,0,0) 60%, rgba(255,255,255,0.3449754901960784) 100%);
+        width: 100vh;
+    }
+    
+    main .personagem .video {
+        height: 85%;
+    }
+
+    .conteudo {
+        justify-content: flex-end;
+        left: 0;
+        top: -20%;
+        max-width: 100vh;
+        padding: 10px;
+    }
+
+    .conteudo .logo {
+        max-width: 350px;
+        background-size: 100%;
+        height: 7vh;
+        width: 80vh;
+    }
+
+    .conteudo .nome-personagem {
+        font-size: 36px;
+    }
+
+    .conteudo .descricao {
+        max-width: 500px;
+    }
+
+    .botoes {
+        flex-direction: row;
+        align-items: flex-end;
+        min-height: 95vh;
+        width: 95%;
+        right: 20px;
+        padding: 20px 0 0 0;
+        background-color: transparent;
+    }
+
+    .botoes__div1,
+    .botoes__div2 {
+        flex-direction: row;
+   }
+
+    .botoes .botao img {
+        max-width: 100%;
+
+    }
+
+    .space__engine {
+        position: absolute;
+        bottom: 5px;
+        right: 0;
+        left: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px) {
+    main .personagem .video {
+        height: 60vh;
+    }
+
+    .conteudo .logo {
+        max-width: 350px;
+        background-size: 100%;
+        height: 5vh;
+        width: 25vh;
+    }
+
+    .conteudo {
+        top: -30%;
+    }
+
+    .conteudo .nome-personagem {
+        font-size: 24px;
+    }
+
+    .botoes {
+        width: 95%;
+        flex-flow: column;
+        bottom: -70%;
+        right: 10px;
+        text-align: center;
+    }
+
+    .botoes .botao img {
+        max-width: 90%;
+    }
+}
